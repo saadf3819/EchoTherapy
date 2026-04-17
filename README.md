@@ -10,7 +10,6 @@ Echo Therapy is a web‑based intelligent system that listens to your voice, det
 
 - **Speech Emotion Recognition** – Uses a fine‑tuned Wav2Vec2 transformer model to classify emotions from voice input with **89% accuracy**.
 - **Bilingual Support** – Works with both English and Urdu speech.
-- **AI Emotional Companion** – Provides empathetic, context‑aware responses using Claude or GPT.
 - **Mood‑Based Music Recommendations** – Suggests curated YouTube playlists and tracks that match your detected emotion.
 - **Interactive Web Interface** – Built with Streamlit: upload audio, view emotion confidence charts, waveform visualization, and embedded music players.
 - **Real‑time Performance** – Optimized for low‑latency inference on CPU or GPU.
@@ -52,7 +51,7 @@ pip install -r requirements_assistant.txt
 If you encounter issues, install manually:
 pip install streamlit torch torchaudio librosa transformers plotly anthropic python-dotenv safetensors
 
-### Step 6: Run the application
+### Step 5: Run the application
 streamlit run llmapp.py
 Open your browser at http://localhost:8501
 
