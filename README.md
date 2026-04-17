@@ -38,9 +38,10 @@ git clone https://github.com/saadf3819/EchoTherapy.git
 cd EchoTherapy
 
 ### Step 2: Download the model file (Git LFS)
-The model file model.emotion (378 MB) is stored with Git LFS. After cloning, run:
-git lfs pull
-This will download the actual model file (not just the pointer).
+The model file model.emotion (378 MB) is stored with Git LFS. 
+After cloning, run:
+-git lfs pull
+-This will download the actual model file (not just the pointer).
 
 ### Step 3: Create a virtual environment (recommended)
 python -m venv venv
