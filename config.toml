@@ -1,0 +1,11 @@
+[server]
+maxUploadSize = 200
+maxMessageSize = 200
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+# Give long-running ops more time before Streamlit considers them hung
+fastReruns = false
