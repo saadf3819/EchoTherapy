@@ -34,27 +34,28 @@ Echo Therapy is a web‑based intelligent system that listens to your voice, det
 - Git LFS (to download the model file) – [Install Git LFS](https://git-lfs.com)
 
 ### Step 1: Clone the repository
-git clone https://github.com/saadf3819/EchoTherapy.git
-cd EchoTherapy
+- git clone https://github.com/saadf3819/EchoTherapy.git
+- cd EchoTherapy
 
 ### Step 2: Download the model file (Git LFS)
 The model file model.emotion (378 MB) is stored with Git LFS. 
-After cloning, run:
- git lfs pull
- This will download the actual model file (not just the pointer).
+- After cloning, run:
+ - git lfs pull
+ - This will download the actual model file (not just the pointer).
 
 ### Step 3: Create a virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate
+- # On Windows: venv\Scripts\activate
 
 ### Step 4: Install dependencies
-pip install -r requirements_assistant.txt
-If you encounter issues, install manually:
-pip install streamlit torch torchaudio librosa transformers plotly anthropic python-dotenv safetensors
+- pip install -r requirements_assistant.txt
+- If you encounter issues, install manually:
+- pip install streamlit torch torchaudio librosa transformers plotly anthropic python-dotenv safetensors
 
 ### Step 5: Run the application
-streamlit run llmapp.py
-Open your browser at http://localhost:8501
+- streamlit run llmapp.py
+- Open your browser at http://localhost:8501
 
 ## 🎮 How to Use
 Upload an audio file – Supported formats: WAV, MP3, FLAC, OGG, M4A.
