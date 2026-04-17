@@ -70,7 +70,7 @@ Audio waveform visualisation
 
 Music Recommendations – Curated YouTube playlists tailored to your mood. Click "Play" to listen directly in the app.
 
-📄 License
+## 📄 License
 This project is for educational and research purposes.
 
 
