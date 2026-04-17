@@ -1,6 +1,6 @@
 # 🎙️ Echo Therapy – Emotion-Based Music Therapy System
 
-**Real‑time emotion detection from voice | 89% accuracy on English & Urdu speech | AI companion | Mood‑based music recommendations**
+**Real‑time emotion detection from voice | 89% accuracy on English & Urdu speech | Mood‑based music recommendations**
 
 Echo Therapy is a web‑based intelligent system that listens to your voice, detects your emotional state (Happy, Sad, Angry, Neutral), and personalized music recommendations. Built with a fine‑tuned multilingual Wav2Vec2 model, it supports both English and Urdu speech, making it culturally adaptable.
 
