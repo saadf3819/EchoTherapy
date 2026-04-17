@@ -46,7 +46,7 @@ The model file model.emotion (378 MB) is stored with Git LFS.
 ### Step 3: Create a virtual environment (recommended)
 - python -m venv venv
 - source venv/bin/activate
-- # On Windows: venv\Scripts\activate
+- On Windows: venv\Scripts\activate
 
 ### Step 4: Install dependencies
 - pip install -r requirements_assistant.txt
